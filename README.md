@@ -7,7 +7,7 @@ This module does not use any provider. It just takes an integer and a prefix and
 ```hcl
 module "workstation_names" {
   source                 = "devoptimist/names_array/local"
-  version                = "0.0.1"
+  version                = "0.0.3"
   names_count            = 5
   name_prefix            = "joe-blogs-workshop"
   array_of_names         = ["Mercury", "Venus", "Earth", "Mars", "Jupiter"]

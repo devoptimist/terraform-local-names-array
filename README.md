@@ -2,14 +2,6 @@
 This module does not use any provider. It just takes an integer and a prefix and creates an array of names. For use in instance creation for workshops
 
 
-# AWS EC2 Instance Terraform module
-
-Terraform module which creates EC2 instance(s) on AWS.
-
-These types of resources are supported:
-
-* [EC2 instance](https://www.terraform.io/docs/providers/aws/r/instance.html)
-
 ## Usage
 
 ```hcl
